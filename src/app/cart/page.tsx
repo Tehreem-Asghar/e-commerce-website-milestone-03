@@ -86,7 +86,7 @@ const CartPage = () => {
   }
 
   return (
-    <div className='w-full h-full flex flex-col justify-center items-center p-4'>
+    <div className='w-full min-h-screen flex flex-col justify-center items-center p-4'>
       {orderConfirmed ? (
         <div className="flex flex-col items-center">
           <h1 className="text-green-600 text-3xl mb-4">Order Confirmed!</h1>
