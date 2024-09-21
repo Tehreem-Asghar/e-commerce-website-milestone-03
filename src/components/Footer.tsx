@@ -6,9 +6,9 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="relative bottom-0 bg-black text-gray-200 py-8 flex flex-col justify-center items-center">
-      <Link href="#top" className="border-b border-white pb-2">
-        Back to Top
-      </Link>
+    <Link href="#top" className="border-b border-white pb-2">
+      Back to Top
+    </Link>
 
       <div className="mb-4 md:mb-0 mt-4">
         <ul className="flex flex-wrap justify-center md:justify-start gap-6">

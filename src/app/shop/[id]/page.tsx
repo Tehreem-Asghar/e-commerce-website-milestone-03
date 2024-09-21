@@ -23,7 +23,7 @@ const PhoneDetail = ({ params }: { params: { id: string } }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const fetchedData: Phone = await getData<Phone>(`${process.env.NEXT_PUBLIC_URL}/${id}`);
+        const fetchedData: Phone = await getData<Phone>(`${window.location.origin}/api/phones/${id}`);
         setData(fetchedData);
       } catch (error) {
         console.error("Failed to fetch data:", error);

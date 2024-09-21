@@ -21,7 +21,7 @@ const Card: React.FC = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const data: Phone[] = await getData<Phone[]>(`${process.env.NEXT_PUBLIC_URL}`);
+      const data: Phone[] = await getData<Phone[]>(`${window.location.origin}/api/phones`);
       setPhones(data);
     };
     fetchData();
