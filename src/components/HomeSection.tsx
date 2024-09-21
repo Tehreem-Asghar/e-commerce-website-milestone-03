@@ -36,7 +36,7 @@ const HeroSection: React.FC = () => {
     >
 <div className="absolute inset-0 bg-black opacity-40"></div> {/* Slightly lighter overlay */}
       <h1 className="relative text-4xl md:text-5xl lg:text-6xl font-bold text-center shadow-2xl px-4 py-2 rounded-lg bg-opacity-70 bg-black">
-        Welcome to the Phone Store
+        Welcome to the Phone Shop
       </h1>
       <h2 className="relative text-2xl text-center shadow-2xl px-4 py-2 rounded-lg bg-opacity-70 bg-black">
         Discover the Latest Smartphones and Exclusive Deals!
